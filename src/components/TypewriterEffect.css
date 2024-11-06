@@ -1,0 +1,42 @@
+.cursor {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 5px; 
+    animation: blink 1s infinite;
+}
+
+.dynaTypeProp{
+    font-size: 18px;
+    margin: 25px 12px; 
+    margin-top: 0;
+    text-align: center; 
+}
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  /*________RESPONSIVE - TABLET________________ */
+@media (min-width: 768px) {
+  .dynaTypeProp{
+    font-size: 22px;
+    margin: 15px 0;  
+    text-align: left;
+  }
+ 
+}
+
+/*________RESPONSIVE - DESKTOP________________ */ 
+@media (min-width: 1024px) {
+  .dynaTypeProp{
+    font-size: 25px;
+    margin: 25px 0;
+  }
+}
+  

@@ -1,0 +1,141 @@
+.about{
+  background-color: white;
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+  padding: 0;
+  padding-top: 60px;
+} 
+
+.about-main-bg{
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 20px;
+}
+
+.about-contents-header > img{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.about-main{ 
+  background-color: white; 
+  padding: 20px;  
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+} 
+
+.about-header{
+  margin-top: 30px; 
+  margin-bottom: 40px; 
+}
+
+.about-header > h1{ 
+  margin-bottom: 15px;
+}
+
+.about-contents-header{ 
+  margin-bottom: 20px;  
+}
+
+.about-contents-main-wrapper{ 
+  margin-top: 40px; 
+}
+
+.about-contents-main-wrapper > p{ 
+  margin-bottom: 40px; 
+}
+
+.about-contents-main{
+  margin-bottom: 25px;
+}
+
+.about-contents-header > h2{ 
+  margin-bottom: 7px;
+}
+
+.about-contents-main > h5{ 
+  margin: 2px 0;
+  margin-bottom: 10px; 
+}  
+
+.about-contents-main > div{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about-contents-main > div > img{
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.about-contents-main > div > p{
+  width: auto;
+  margin-left: 10px; 
+}
+
+.about-contents-main2{
+  margin-bottom: 40px;
+}
+
+.about-contents-main2 > h5{
+  margin: 2px 0;
+  margin-bottom: 10px;
+}
+
+.about-contents-main2 > div > div{
+  text-align: center;
+  box-shadow: 2px 5px 50px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.about-contents-main2 > div > div > img{ 
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 760px) {   
+  .about-main{
+    padding: 2% 7.5%;
+    margin: 25px 50px;
+  }
+
+  .about-contents{
+      display: flex;
+  }
+
+  .about-contents-header{
+      width: 50%;
+  }
+
+  .about-contents-main-wrapper{
+      width: 50%;
+      margin-left: 40px;
+      margin-top: 10px;  
+  }
+
+  .ac-box-wrap{
+    display: flex;
+  }
+
+  .about-contents-main2 > div > div{
+    margin: 20px 10px;
+    width: 33.33%;
+  } 
+ 
+
+}
+
+/*________RESPONSIVE - DESKTOP________________ */ 
+@media (min-width: 1024px) {
+  .post-item { 
+    width: 30%;  
+  }
+}

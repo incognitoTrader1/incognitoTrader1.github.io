@@ -1,0 +1,134 @@
+.contact{
+  background-color: white;
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+  padding: 0; 
+  padding-top: 60px;
+}  
+
+.contact-main-bg{
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 20px;
+}
+
+.contact-contents-header > img{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.contact-main{ 
+  background-color: white; 
+  padding: 20px;  
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+} 
+
+.contact-header{
+  margin-top: 30px; 
+  margin-bottom: 40px; 
+}
+
+.contact-header > h1{ 
+  margin-bottom: 15px;
+} 
+
+.contact-contents-header{ 
+  margin-bottom: 20px;    
+} 
+
+.contact-contents-main{ 
+  margin-bottom: 25px; 
+}
+
+.contact-contents-header > h3{ 
+  margin-bottom: 7px;
+} 
+
+.contact-contents-main > form input{ 
+  background-color: #090979b8; 
+  color: white;
+}
+
+.contact-contents-main > form textarea{ 
+  background-color: #090979b8; 
+  color: white;
+  margin: 10px 0;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.contact-contents-socails{
+  margin-top: 20px;
+  margin-bottom: 50px; 
+}
+
+.contact-contents-socails > div > div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0; 
+} 
+
+.contact-contents-socails > div > div > img{
+  background-color: rgb(183, 183, 183);
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.contact-contents-socails > div > div > p{
+  margin-left: 10px;
+}
+ 
+
+
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 760px) {   
+  .contact-main{
+    padding: 2% 7.5%;
+    margin: 25px 50px;
+  }
+
+  .contact-contents{
+      display: flex; 
+  }
+
+  .contact-contents-header{
+      width: 40%;
+  }
+
+  .contact-contents-main{
+      width: 60%;
+      margin-left: 40px;
+      margin-top: 10px;  
+  } 
+
+  .flexbox-prop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .contact-contents-socails > div{
+    display: flex;  
+  }
+
+  .contact-contents-socails > div > div{
+    margin:0 10px;
+  }
+
+  .contact-contents-socials{
+    display: block;
+  }
+ 
+
+}
+
+/*________RESPONSIVE - DESKTOP________________ */ 
+@media (min-width: 1024px) { 
+}

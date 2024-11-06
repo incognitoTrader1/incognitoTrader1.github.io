@@ -1,0 +1,60 @@
+.call-to-action{ 
+    padding: 0;  
+    background-color: white; 
+    background-image: url(http://localhost:3000/images/core/bg-fractal.svg);
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: 100%;
+}
+
+.cta-transperant{
+    display: flex;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.call-to-action-img-wrapper{
+    width: 50%;
+}
+
+.call-to-action-img{
+    width: 100%; 
+}
+
+.call-to-action-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-content > div > button{
+    padding: 0 40px;
+    margin-top: 10px;
+}
+
+.meDesktop{
+    display: none;
+}
+
+  /*________RESPONSIVE - TABLET________________ */
+  @media (min-width: 768px) {
+    .call-to-action-img-wrapper{ 
+        margin: 0 auto;
+        padding: 0 5%;
+    } 
+    
+    .call-to-action-content{
+        margin: 0 auto; 
+        padding: 0 5%;
+    }
+
+    .meMobile{
+        display: none;
+    }
+
+    .meDesktop{
+        display: initial;
+    }
+   
+  }

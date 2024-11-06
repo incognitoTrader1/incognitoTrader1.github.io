@@ -1,0 +1,22 @@
+footer{
+    padding: 20px 0;
+    background-color: rgb(0, 0, 0); 
+    color: white;
+}
+
+footer > div{
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+.footer-socials-wrapper{
+    margin-bottom: 20px;
+}
+
+.footer-socials-wrapper > img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 20px;
+}

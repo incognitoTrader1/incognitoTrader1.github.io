@@ -1,0 +1,27 @@
+.search-bar{
+    background-color: rgba(0, 0, 0, 0.317);
+    padding: 20px; 
+    color: white;
+}
+
+.search-bar > h3{ 
+    margin: 20px 0;
+}
+
+.search-bar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar-wrapper select, input{ 
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 48%;
+}
+
+.search-bar-wrapper select{ 
+    margin-right: 4%;
+}

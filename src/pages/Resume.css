@@ -1,0 +1,148 @@
+.resume{
+    background-color: white;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+    padding: 0;
+    padding-top: 60px;
+}
+
+.resume h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+.resume-main-bg{
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+}
+
+.resume-main{ 
+    background-color: white; 
+    padding: 20px;  
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+} 
+
+.resume-header{
+    margin-bottom: 40px; 
+}
+
+.resume-header > h1{ 
+    margin-bottom: 15px;
+}
+
+.resume-contents-header{
+    margin-bottom: 20px; 
+}
+
+.resume-contents-main-wrapper{ 
+    margin-top: 40px; 
+}
+
+.resume-contents-main{
+    margin-bottom: 25px; 
+}
+
+.resume-contents-header > h2{ 
+    margin-bottom: 7px;
+}
+
+.resume-contents-main > h3{ 
+    margin: 2px 0;
+    font-weight: bold;
+} 
+
+.resume-contents-main > p{ 
+    margin-top: 10px;
+}
+
+.ed-main{ 
+    margin-bottom: 0; 
+    border-left: 3px solid rgb(201, 201, 201);
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.ed-main-header-wrap{ 
+    display: flex;
+}
+
+.ed-main-header-wrap > h3{ 
+    margin-left: 12px;
+}
+
+.ed-main-header-wrap > p{
+    background-color: rgba(255, 0, 0, 0.293); 
+    padding: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ed-main-header-wrap > p > span{
+    background-color: rgb(255, 0, 0); 
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;  
+} 
+
+.edu-small-box{
+    background-color: rgba(255, 0, 0, 0.256);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.edu-bullet-box{
+    margin-left: 20px;
+    margin-top: 20px;
+} 
+
+.tech-stack-wrap > img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px; 
+}
+ 
+
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 760px) {
+    .resume-main{
+        margin: 25px 50px;
+    } 
+
+    .resume-contents{
+        display: flex; 
+    }
+
+    .resume-contents-header{
+        width: 30%;
+    }
+
+    .resume-contents-main-wrapper{
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 10px;  
+    }
+
+    .tech-stack-wrap{
+        margin-left: 10%;
+    }
+
+  }
+  
+  /*________RESPONSIVE - DESKTOP________________ */ 
+  @media (min-width: 1024px) {
+    .post-item { 
+      width: 30%;  
+    }
+  }

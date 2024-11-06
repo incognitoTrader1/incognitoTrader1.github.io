@@ -1,0 +1,84 @@
+/* src/pages/Home.css */
+#welcome-landing {
+  background: rgb(4,0,79);
+  background: linear-gradient(90deg, rgba(4,0,79,1) 0%, rgba(9,9,121,1) 35%, rgba(0,58,143,1) 100%);
+  padding: 50px 10px;
+  color: white;
+  text-align: center;
+}
+  
+.welcome-image {
+    max-width: 100%; /* Ensures the image fits within the container */
+    height: auto;    /* Maintains the image’s aspect ratio */
+    border-radius: 8px;  
+    margin-top: 20px; 
+}
+
+.landing-h1{ 
+    margin-top: 20px;
+    font-size: 36px;  
+}
+
+.sec1-btn1{
+  margin-right: 20px;
+  color: #090979;
+  background-color: white;
+}
+
+.sec1-btn2{
+  border: 2px solid white;  
+  color: white;
+}
+
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 768px) {
+    #welcome-landing {
+      padding: 0;
+      padding-top: 50px;
+      display: flex; 
+    }
+
+    #welcome-landing > div{
+        width: 50%; 
+    }
+
+    .landing-h1{  
+      margin-top: 0;
+    }
+
+    .sec1Box2 > div > button{
+      width: 50%;
+      font-size: 16px;
+      height: 45px; 
+    } 
+
+    .sec1Box2{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .welcome-image {
+      max-width: 100%;
+    }
+  }
+  
+/*________RESPONSIVE - DESKTOP________________ */ 
+  @media (min-width: 1024px) { 
+
+    #welcome-landing > div{
+      height: 450px;
+    }  
+
+    .sec1Box2 > div > button{
+      width: 50%;
+      font-size: 18px;
+      height: 50px; 
+    } 
+  
+    .welcome-image {
+      max-width: 100%; 
+    }
+}
+  

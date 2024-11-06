@@ -1,0 +1,94 @@
+.spp-content-wrapper{ 
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+.spp-content-wrapper a{ 
+    text-decoration: none;
+    color: #090979;
+    font-weight: bold;
+}
+
+.spp-featureH1{
+    margin: 10px 0;
+    margin-top: 0;
+}
+
+.spp-featureImg{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*________RELATED POST - PROPERTY________________ */
+.relatedPost-sec{
+    background-color: #09097954; 
+    padding: 20px;  
+} 
+
+.related-posts-list{  
+    width: 100%; /* or a fixed width */
+    white-space: nowrap; /* Forces the child items to stay in one line */
+    padding: 20px 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.related-post-item{
+    display: inline-block; /* Ensure the posts stay inline */
+    width: 200px;
+    white-space: wrap;
+    max-width: 200px;
+    padding: 0; 
+    background-color: white;
+    margin-right: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+} 
+
+.related-post-item > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.related-post-item > h4{ 
+    text-align: center;
+    padding:10px;
+    padding-top: 0;
+    margin-top: 10px; 
+}
+
+.related-post-item > h4 a{  
+    color: #090979;
+    text-decoration: none;
+}
+
+.related-post-item > div > img{ 
+    width: 100%;
+    height: 100px;
+}
+
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 760px) { 
+    .spp-content-wrapper{ 
+        margin: 0 8%;
+        margin-top: 50px;
+    }
+
+    .spp-featureImg{ 
+        height: 250px;
+    } 
+      
+  }
+  
+  /*________RESPONSIVE - DESKTOP________________ */ 
+  @media (min-width: 1024px) {
+    .spp-content-wrapper{ 
+        margin: 0 15%;
+        margin-top: 50px;
+    }
+    .spp-featureImg{ 
+        height: 350px;
+    }
+  }

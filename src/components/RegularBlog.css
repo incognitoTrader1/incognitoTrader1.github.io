@@ -1,0 +1,46 @@
+  .regular-blog{
+    background-color: white; 
+    padding: 30px 20px;
+    background-image: url(http://localhost:3000/images/core/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: 65%;
+  }
+
+  .regularBlogs{ 
+    padding:0; 
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center; 
+    width: 90%; 
+    margin-top: 30px;  
+    margin-bottom: 30px;  
+  }
+
+  .regularBlogs > h4{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .regular-blog-box1{
+    text-align: center;
+  }
+
+  /*________RESPONSIVE - TABLET________________ */
+@media (min-width: 768px) {
+  .regular-blogWrapper{
+    display: flex;
+  }
+
+  .regularBlogs{  
+    margin: 30px 10px;
+    text-align: center; 
+    width: 90%;  
+  }
+ 
+}
+
+/*________RESPONSIVE - DESKTOP________________ */ 
+@media (min-width: 1024px) {
+ 
+}

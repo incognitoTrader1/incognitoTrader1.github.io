@@ -1,0 +1,172 @@
+.portfolio-page{
+    background-color: white;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+    padding: 0;
+    padding-top: 60px;
+}
+
+.recent-projects-list{ 
+    background-color: white; 
+    padding: 0;  
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+} 
+
+.recent-projects-trans-bg{
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+}
+
+.recent-projects-header{ 
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+/*_________________________________*/
+.recent-projects-box-wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));    
+    overflow: hidden;  
+}
+
+.recent-projects-box {
+    position: relative;
+    cursor: pointer;
+    min-height: 160px; 
+    margin-bottom: 10px;    
+}
+
+.recent-projects-box-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.recent-projects-box-content {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #090979aa;
+    color: white;
+}
+
+.recent-projects-box:hover .recent-projects-box-content {
+    opacity: 1;
+}
+
+.recent-projects-box-content::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.recent-projects-box:hover .recent-projects-box-content::before {
+    top: 15px;
+    left: 15px;
+}
+
+.recent-projects-box-content::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.recent-projects-box:hover .recent-projects-box-content::after {
+    bottom: 15px;
+    right: 15px;
+}
+
+.recent-projects-box-img-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+} 
+
+
+/*________RESPONSIVE - TABLET________________ */
+  @media (min-width: 768px) { 
+    .recent-projects-list{
+        margin: 25px 50px;
+    }
+    
+    .recent-projects-box-wrapper {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+    }  
+  }
+
+  @media (max-width: 480px) { 
+    .recent-projects-box {
+        width: 95%;    
+    }  
+  } 
+
+  @media (max-width: 450px) { 
+    .recent-projects-box {
+        width: 92%;    
+    }  
+  } 
+
+  @media (max-width: 438px) { 
+    .recent-projects-box {
+        width: 90%;    
+    }  
+  } 
+
+  @media (max-width: 428px) { 
+    .recent-projects-box {
+        width: 87%;    
+    }  
+  } 
+
+  @media (max-width: 418px) { 
+    .recent-projects-box {
+        width: 84%;    
+    }  
+  }
+
+  @media (max-width: 400px) { 
+    .recent-projects-box {
+        width: 78%;    
+    }
+  }
+
+  @media (max-width: 375px) { 
+    .recent-projects-box {
+        width: 74%;    
+    }
+  }

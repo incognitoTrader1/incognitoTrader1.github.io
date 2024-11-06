@@ -1,0 +1,68 @@
+
+.blog-main{ 
+  padding-top: 50px;
+}
+
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center;
+  }
+  
+  .post-item {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%; 
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .featuredImg {
+    width: 100%;
+    height: 180px; 
+    border-radius: 20px 20px 0 0;
+  }
+
+  .post-item-content-wrapper{
+    padding: 20px;
+  }
+
+  .post-item .read-more-link { 
+    color: #090979;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */  
+  } 
+
+  .load-more-button{
+    margin: 10px 20px;
+    padding: 0 20px;
+  }
+  
+
+  /*________RESPONSIVE - BIG PHONE________________ */
+  @media (min-width: 500px) { 
+  
+    .post-item { 
+      width: 70%; 
+    }
+      
+  }
+
+/*________RESPONSIVE - TABLET________________ */
+@media (min-width: 760px) { 
+  
+  .post-item { 
+    width: 40%;  
+  }
+    
+}
+
+/*________RESPONSIVE - DESKTOP________________ */ 
+@media (min-width: 1024px) {
+  .post-item { 
+    width: 30%;  
+  }
+}
