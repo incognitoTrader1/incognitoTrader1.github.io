@@ -37,7 +37,7 @@ const Home = () => {
     {/* Main homepage content */}
     <section id="welcome-landing">
       <div style={{ padding: '0 50px' }}>
-        <img src="/images/core/t1.jpg" alt="Welcome" className="welcome-image" />
+        <img src="/images/brand/profile.png" alt="Welcome" className="welcome-image" />
       </div>
       
       <div className='sec1Box2'>

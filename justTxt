@@ -1,8 +1,11 @@
-To do TODAY:
-Design Blog page ✔
-Portfolio page > single recent work page ✔
-Resume page ✔
-About page ✔
-Contact page ✔
-________________
-?
+DEPLOYMENT PROCESS AFTER CODE UPDATE
+Push to Github:
+1. git add .
+2. git commit -m "Add new feature X"
+3. git push origin master
+
+Build app: 
+npm run build
+
+Deploy:
+npm run deploy
