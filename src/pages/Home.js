@@ -37,7 +37,7 @@ const Home = () => {
     {/* Main homepage content */}
     <section id="welcome-landing">
       <div style={{ padding: '0 50px' }}>
-        <img src="/images/brand/profile.png" alt="Welcome" className="welcome-image" />
+        <img src="https://github.com/incognitoTrader1/emmanuel/tree/master/public/images/brand/profile.png" alt="Welcome" className="welcome-image" />
       </div>
       
       <div className='sec1Box2'>
