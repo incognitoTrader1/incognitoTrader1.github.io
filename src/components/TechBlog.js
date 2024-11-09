@@ -40,17 +40,17 @@ const TechBlog = () => {
 
   const blogs = [
     {
-      img: "/images/Blog/post-7.jpg",
+      img: "images/Blog/post-7.jpg",
       title: "Learn PHP The Right Way | 30 Days Extensive PHP Course",
       link: "#",
     },
     {
-      img: "/images/Blog/post-8.jpg",
+      img: "images/Blog/post-8.jpg",
       title: "Master React and Build Scalable Applications",
       link: "#",
     },
     {
-      img: "/images/Blog/post-4.png",
+      img: "images/Blog/post-4.png",
       title: "Understanding JavaScript Closures in Depth",
       link: "#",
     },
@@ -69,7 +69,7 @@ const TechBlog = () => {
         <Slider {...settings}>
           {blogs.map((blog, index) => (
             <div key={index} className="featuredBlog">
-              <img src={blog.img} alt="Featured blog" />
+              <img src={`${process.env.PUBLIC_URL}/${blog.img}`} alt="Featured blog" />
               <h5 style={{ display: '-webkit-box',WebkitBoxOrient: 'vertical',
                 overflow: 'hidden',WebkitLineClamp: 2,textOverflow: 'ellipsis',   
                 height: '60px',margin: '20px 0'}}> {blog.title}

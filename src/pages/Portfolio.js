@@ -11,22 +11,22 @@ const Portfolio = () => {
     {
       id: '1',
       title: 'WhatsApp project one',
-      image: 'project1.png', 
+      image: 'images/portfolio/project1.png', 
     },
     {
       id: '2',
       title: 'Twitter Clone',
-      image: 'project1.png', 
+      image: 'images/portfolio/project1.png', 
     },
     {
       id: '2',
       title: 'Twitter Clone',
-      image: 'project1.png', 
+      image: 'images/portfolio/project1.png', 
     },
     {
       id: '2',
       title: 'Twitter Clone',
-      image: 'project1.png', 
+      image: 'images/portfolio/project1.png', 
     },
     // Add more projects...
   ];
@@ -70,7 +70,7 @@ const Portfolio = () => {
               className="recent-projects-box"
               to={`/portfolio/${generateSlug(project.title)}`}
              > 
-              <img className="recent-projects-box-img" src={`/images/portfolio/${project.image}`} alt={project.title} />
+              <img className="recent-projects-box-img" src={`${process.env.PUBLIC_URL}/${project.image}`} alt={project.title} />
               <div class="recent-projects-box-content">
                 <h3>{project.title}</h3>
                 <div class="portfolio-page__actions">

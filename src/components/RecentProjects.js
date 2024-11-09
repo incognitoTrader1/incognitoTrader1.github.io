@@ -11,7 +11,7 @@ const RecentProjects = () => (
 
     <div className='recent-projects-box-wrapper'> 
       <a class="recent-projects-box" href="#">
-        <img class="recent-projects-box-img" src="/images/portfolio/project1.png" alt="img" />
+        <img class="recent-projects-box-img" src={`${process.env.PUBLIC_URL}/images/portfolio/project1.png`} alt="img" />
         <div class="recent-projects-box-content" style={{backgroundColor: "#090979aa"}}>
           <h3> Anozie Stores </h3>
           <div class="portfolio-page__actions">
@@ -23,7 +23,7 @@ const RecentProjects = () => (
       </a> 
 
       <a class="recent-projects-box" href="#">
-        <img class="recent-projects-box-img" src="/images/portfolio/project1.png" alt="img" />
+        <img class="recent-projects-box-img" src={`${process.env.PUBLIC_URL}/images/portfolio/project1.png`} alt="img" />
         <div class="recent-projects-box-content" style={{backgroundColor: "#090979aa"}}>
           <h3> Anozie Stores </h3>
           <div class="portfolio-page__actions">
@@ -35,7 +35,7 @@ const RecentProjects = () => (
       </a>
 
       <a class="recent-projects-box" href="#">
-        <img class="recent-projects-box-img" src="/images/portfolio/project1.png" alt="img" />
+        <img class="recent-projects-box-img" src={`${process.env.PUBLIC_URL}/images/portfolio/project1.png`} alt="img" />
         <div class="recent-projects-box-content" style={{backgroundColor: "#090979aa"}}>
           <h3> Anozie Stores </h3>
           <div class="portfolio-page__actions">

@@ -22,13 +22,13 @@ const Header = () => {
   return (
     <header>
       <div className='logo-wrapper'>
-        <img className='logo' src="/images/socials/whatsapp-black.png" alt="img" /> 
+        <img className='logo' src="/images/socials/whatsapp-black.png" alt="Logo" /> 
       </div>
 
       <div className='hamburger-wrapper'>
         <button className="hamburger" onClick={toggleDisplay}>
           {/* Incase of image toggle icons*/}
-          <img src={isVisible ? "/images/core/close-nav-menu.png" : "/images/core/hamburger.png"} alt={isVisible ? "Close menu" : "Open menu"} />
+          <img src={isVisible ? `${process.env.PUBLIC_URL}/images/core/close-nav-menu.png` : `${process.env.PUBLIC_URL}/images/core/hamburger.png`} alt={isVisible ? "Close menu" : "Open menu"} />
           
           {/* Incase of text toggle icons - just remove the comment on the code below*/}
           {/* {isVisible ? '✕' : '☰'} */}

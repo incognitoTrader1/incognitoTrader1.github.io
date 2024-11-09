@@ -38,35 +38,35 @@ const About = () => {
 
           <div className='about-contents'>
            <div className='about-contents-header'>
-              <img src={`/images/core/t1.jpg`} alt='Emmanuel photo' />
+              <img src={`${process.env.PUBLIC_URL}/images/brand/success1.png`} alt='Emmanuel' />
            </div>
 
            <div className='about-contents-main-wrapper'>
             <div className='about-contents-main'> 
-              <h5>Who The Fuck am I?</h5> 
+              <h5>Who am I?</h5> 
               <div>
-                <img src={`/images/core/user.png`} alt='user icon' />
+                <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
                 <p>A Software Engineer with hands on experience developing websites, full-stack web applications and APIs.</p>
               </div>
 
               <div>
-                <img src={`/images/core/user.png`} alt='user icon' />
+                <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
                 <p>A Software Engineer with hands on experience developing websites, full-stack web applications and APIs.</p>
               </div>
             </div>
             <div className='about-contents-main2'> 
-              <h5>What I Fucking Do?</h5> 
+              <h5>What I Do?</h5> 
              <div className='ac-box-wrap'>
               <div>
-                <img src={`/images/core/code.png`} alt='code icon' />
+                <img src={`${process.env.PUBLIC_URL}/images/core/code.png`} alt='code icon' />
                 <p>Software/API Development</p>
               </div>
               <div>
-                <img src={`/images/core/web-link.png`} alt='web-link icon' />
+                <img src={`${process.env.PUBLIC_URL}/images/core/web-link.png`} alt='web-link icon' />
                 <p>Full-Stack Web Development</p>
               </div>
               <div>
-                <img src={`/images/core/forex.png`} alt='forex icon' />
+                <img src={`${process.env.PUBLIC_URL}/images/core/forex.png`} alt='forex icon' />
                 <p>Intra-day Forex Trading | Retail Trading</p>
               </div> 
              </div> 

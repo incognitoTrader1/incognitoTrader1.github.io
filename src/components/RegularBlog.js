@@ -11,17 +11,17 @@ const RegularBlog = () => (
 
     <div className='regular-blogWrapper'>
       <div className="regularBlogs boxShadow">
-        <img src="/images/Blog/post-7.jpg" alt="post featured image" /> 
+        <img src={`${process.env.PUBLIC_URL}/images/Blog/post-7.jpg`} alt="featured" /> 
         <h4>Learn PHP The Right Way | 30 Days Extensive PHP Course</h4>
         <button>Explore</button>
       </div> 
       <div className="regularBlogs boxShadow">
-        <img src="/images/Blog/post-7.jpg" alt="post featured image" /> 
+        <img src={`${process.env.PUBLIC_URL}/images/Blog/post-7.jpg`} alt="featured" /> 
         <h4>Learn PHP The Right Way | 30 Days Extensive PHP Course</h4>
         <button>Explore</button>
       </div> 
       <div className="regularBlogs boxShadow">
-        <img src="/images/Blog/post-7.jpg" alt="post featured image" /> 
+        <img src={`${process.env.PUBLIC_URL}/images/Blog/post-7.jpg`} alt="featured" /> 
         <h4>Learn PHP The Right Way | 30 Days Extensive PHP Course</h4>
         <button>Explore</button>
       </div> 

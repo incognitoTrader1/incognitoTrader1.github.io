@@ -6,8 +6,8 @@ const CallToAction = () => (
   <div className="call-to-action">
     <div className="cta-transperant">
      <div className="call-to-action-img-wrapper">
-        <img class="call-to-action-img meMobile" src="/images/core/meMobile.png" alt="img" />
-        <img class="call-to-action-img meDesktop" src="/images/core/meDesktop.png" alt="img" />
+        <img class="call-to-action-img meMobile" src={`${process.env.PUBLIC_URL}/images/core/meMobile.png`} alt="img" />
+        <img class="call-to-action-img meDesktop" src={`${process.env.PUBLIC_URL}/images/core/meDesktop.png`} alt="img" />
      </div>
      <div className="call-to-action-content">
         <div>

@@ -75,7 +75,7 @@ function Blog({ posts }) {
         {filteredPosts.slice(0, visiblePosts).map((post) => ( // Only show posts up to visiblePosts limit
           <div key={post.id} className="post-item">
            <Link to={`/blog/${post.slug}`} className="read-more-link"> 
-            <img className='featuredImg' src={`/images/blog/${post.image}`} alt={post.title} />
+            <img className='featuredImg' src={`${process.env.PUBLIC_URL}/images/blog/${post.image}`} alt={post.title} />
             <div className='post-item-content-wrapper'> 
               <h2>{post.title}</h2>
               <PostExcerpt content={post.content} /> 

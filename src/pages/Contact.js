@@ -111,19 +111,19 @@ const Contact = () => {
            <div className='contact-contents-socails'> 
              <div>
               <div>
-                <img src={`/images/socials/youtube.png`} alt='youtube logo' />
+                <img src={`${process.env.PUBLIC_URL}/images/socials/youtube.png`} alt='youtube logo' />
                 <p>Youtube</p>
               </div>
               <div>
-                <img src={`/images/socials/twitter.png`} alt='twitter logo' />
+                <img src={`${process.env.PUBLIC_URL}/images/socials/twitter.png`} alt='twitter logo' />
                 <p>Twitter</p>
               </div>
               <div>
-                <img src={`/images/socials/instagram.png`} alt='instagram logo' />
+                <img src={`${process.env.PUBLIC_URL}/images/socials/instagram.png`} alt='instagram logo' />
                 <p>Instagram</p>
               </div>
               <div>
-                <img src={`/images/socials/telegram.png`} alt='Telegram logo' />
+                <img src={`${process.env.PUBLIC_URL}/images/socials/telegram.png`} alt='Telegram logo' />
                 <p>Telegram</p>
               </div>
               <div> 
