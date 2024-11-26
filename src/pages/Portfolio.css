@@ -1,9 +1,11 @@
+ 
+
 .portfolio-page{
     background-color: white;
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+    background-image: url("http://localhost:3000/emmanuel/images/brand/emma-bg.jpg");
     padding: 0;
     padding-top: 60px;
 }

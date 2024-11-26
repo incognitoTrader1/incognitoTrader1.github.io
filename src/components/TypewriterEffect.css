@@ -6,8 +6,7 @@
     animation: blink 1s infinite;
 }
 
-.dynaTypeProp{
-    font-size: 18px;
+.dynaTypeProp{ 
     margin: 25px 12px; 
     margin-top: 0;
     text-align: center; 
@@ -24,8 +23,7 @@
 
   /*________RESPONSIVE - TABLET________________ */
 @media (min-width: 768px) {
-  .dynaTypeProp{
-    font-size: 22px;
+  .dynaTypeProp{ 
     margin: 15px 0;  
     text-align: left;
   }
@@ -34,8 +32,7 @@
 
 /*________RESPONSIVE - DESKTOP________________ */ 
 @media (min-width: 1024px) {
-  .dynaTypeProp{
-    font-size: 25px;
+  .dynaTypeProp{ 
     margin: 25px 0;
   }
 }

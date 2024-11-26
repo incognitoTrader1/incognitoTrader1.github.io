@@ -14,8 +14,7 @@
     justify-content: center;
 }
 
-.search-bar-wrapper select, input{ 
-    font-size: 20px;
+.search-bar-wrapper select, input{  
     padding: 10px;
     border-radius: 10px;
     border: none;

@@ -49,8 +49,8 @@ const PostTemplate = ({ title, content, image, author= 'Admin', datePublished = 
             {/* Main homepage content */}
             <section className='spp-content-wrapper'>
               <h1 className='spp-featureH1'>{title}</h1>
-              <img src={`/images/blog/${image}`} alt={title} className='spp-featureImg' />
-            
+              <img src={`${process.env.PUBLIC_URL}/images/blog/${image}`} alt={title} className='spp-featureImg' />
+               
               {/* Render the Markdown content */}
               <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
             </section>

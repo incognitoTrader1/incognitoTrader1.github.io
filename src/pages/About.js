@@ -33,12 +33,12 @@ const About = () => {
        <div className='about-main-bg'>
         <div className='about-main'>
           <div className='about-header'>
-            <h1>MEET EMMANUEL OKONKWO</h1> 
+            <h2>MEET EMMANUEL OKONKWO</h2> 
           </div> 
 
           <div className='about-contents'>
            <div className='about-contents-header'>
-              <img src={`${process.env.PUBLIC_URL}/images/brand/success1.png`} alt='Emmanuel' />
+              <img src={`${process.env.PUBLIC_URL}/images/brand/emma-laugh.png`} alt='Emmanuel' />
            </div>
 
            <div className='about-contents-main-wrapper'>
@@ -46,12 +46,15 @@ const About = () => {
               <h5>Who am I?</h5> 
               <div>
                 <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
-                <p>A Software Engineer with hands on experience developing websites, full-stack web applications and APIs.</p>
-              </div>
-
+                <p>A Software Engineer with practical experience in developing websites, full-stack web & desktop applications, and APIs.</p>
+              </div> 
               <div>
                 <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
-                <p>A Software Engineer with hands on experience developing websites, full-stack web applications and APIs.</p>
+                <p>An Expert Advisor (FX robot) developer with hands-on experience in creating automated trading solutions and optimizing algorithms for the forex market.</p>
+              </div>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
+                <p>An Algo Trader with expertise in developing and implementing algorithmic trading strategies to optimize market performance and maximize returns.</p>
               </div>
             </div>
             <div className='about-contents-main2'> 
@@ -67,11 +70,11 @@ const About = () => {
               </div>
               <div>
                 <img src={`${process.env.PUBLIC_URL}/images/core/forex.png`} alt='forex icon' />
-                <p>Intra-day Forex Trading | Retail Trading</p>
+                <p>Intra-day & Algo Forex Trading</p>
               </div> 
              </div> 
             </div> 
-            <p>I'm super excited you're here. Feel free to reach out to me with any project ideas you have or to just say hello!</p>
+            <p>I'm thrilled that you're here! Don't hesitate to reach out if you have any project ideas or just want to say hello!</p>
            </div>
           </div> 
         </div>  

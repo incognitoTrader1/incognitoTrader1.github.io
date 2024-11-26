@@ -9,3 +9,28 @@ npm run build
 
 Deploy:
 npm run deploy
+
+___________________________
+WHEN WRITING BLOG
+- italic text: *example* or _example_
+- Bold text: **example** 
+- Bold and italic: ***example***
+- Strikethrough: ~~example~~ 
+- Header styles:  
+   # example text  
+   ## example text  
+   ### example text  
+   #### example text  
+   ##### example text  
+   ###### example text
+- Bullet List: - example text 
+- Numbered List: 1. example text 
+- Horizontal Rule (Divider):   ---  
+- Single code: \`namedtuple\`
+- Code Block: 
+   \`\`\`   
+   print(john.name)
+   \`\`\`
+- Images: ![alt text](/images/blog/post-7.jpg)  
+- Links: [link text](https://www.google.com) 
+

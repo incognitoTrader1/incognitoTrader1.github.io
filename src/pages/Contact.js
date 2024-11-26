@@ -66,13 +66,13 @@ const Contact = () => {
         <div className='contact-main'>
           <div className='contact-header'>
             <h1>Get In Touch</h1> 
-            <p>I’m always interested in hearing about new projects and opportunities.</p>
+            <p className='h1_subheading'>I'm always open to new ideas and enjoy brainstorming with innovative minds.</p>
           </div> 
 
-          <div className='contact-contents'>
+          <div id='contact-contents' className='contact-contents'>
            <div className='contact-contents-header'>
-              <h3>Let's talk about everything!</h3>
-              <p>Don't like forms? Send me an email. 👋</p>
+              <h3>Let's chat about anything and everything!</h3>
+              <p className='h3_subheading'>Don't like forms? Send me an email. 👋</p>
            </div>
  
            <div className='contact-contents-main'> 

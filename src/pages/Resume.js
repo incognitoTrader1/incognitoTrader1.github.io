@@ -34,26 +34,72 @@ const Resume = () => {
         <div className='resume-main'>
           <div className='resume-header'>
             <h1>Resume</h1>
-            <p>Learn more about my skills, qualifications and experiences.</p>
+            <p className='h1_subheading'>Discover my skills, expertise and experiences.</p>
           </div> 
 
           <div className='resume-contents'>
            <div className='resume-contents-header'>
               <h2>Work Experience</h2>
-              <p>PRESENT & PREVIOUS JOBS</p>
+              <p className='h2_subheading'>PRESENT & PREVIOUS JOBS</p>
            </div>
            <div className='resume-contents-main-wrapper'>
             <div className='resume-contents-main'>
-              <span style={{color:"red"}}>August 2021 - Present</span>
-              <h3>Software Engineer</h3> 
-              <span style={{color:"gray"}}>Bloomberg L.P.</span>
-              <p>• Creating the tools that allow Bloomberg’s 3000+ editorial staff worldwide to publish market-moving financial news.</p>
+              <span className='rcm-span1'>October 2021 - May 2022</span>
+              <h4>Software Engineer</h4> 
+              <span className='rcm-span2'>DafriBank Limited</span>
+              <p>• Developed dynamic email templates for transactional emails and newsletter publications for both Dafribank and DafriXchange Pro.</p>
+              <p>• Developed an enhanced version of the DafriBank blog system, incorporating both frontend and backend components.</p>
+              <p>• Led the publication team of content writers and editors to effectively deliver weekly newsletters and blog posts, while independently managing the integrations and complexities of the SendGrid dashboard.</p>
+            </div> 
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>May 2023 - June 2023</span>
+              <h4>Frontend Web Developer</h4> 
+              <span className='rcm-span2'>NextGear Homes - Freelance Gig</span>
+              <p>• Redesigned and enhanced the existing real estate company's website using secure and modern technologies.</p>
             </div>
             <div className='resume-contents-main'>
-              <span style={{color:"red"}}>August 2021 - Present</span>
-              <h3>Software Engineer</h3> 
-              <span style={{color:"gray"}}>Bloomberg L.P.</span>
-              <p>• Creating the tools that allow Bloomberg’s 3000+ editorial staff worldwide to publish market-moving financial news.</p>
+              <span className='rcm-span1'>July 2024 - September 2024</span>
+              <h4>Software Developer</h4> 
+              <span className='rcm-span2'>MinerX</span>
+              <p>• Developed a Telegram mini-game featuring crypto cloud mining, tap-to-earn mechanics, a micro-task system, a referral program, and other engaging features.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>August 2022 - October 2022</span>
+              <h4>Full-stack Web Developer</h4> 
+              <span className='rcm-span2'>Ancestor Robotics - Freelance Gig</span>
+              <p>• Developed a fully functional dynamic website from scratch, incorporating both frontend and backend components, for the forex robot company.</p>
+              <p>• Developed all trading robots (Expert Advisors) and indicators using MQL4 and MQL5, along with other supporting technologies.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>July 2023 - August 2023</span>
+              <h4>Frontend Web Developer</h4> 
+              <span className='rcm-span2'>NineTech.ca - Freelance Gig</span>
+              <p>• Redesigned and enhanced the existing business and data analys school company's website using secure and modern technologies.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>Febuary 2024 - PRESENT</span>
+              <h4>Full-stack Web Developer</h4> 
+              <span className='rcm-span2'>Edey.ng</span>
+              <p>• Designed and developed an e-commerce system from scratch, incorporating unique features such as P2P trading and ads placement, among others.</p>
+              <p>• Developed an escrow system to enable users to buy and sell securely, ensuring trust and safety in peer-to-peer transactions.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>Febuary 2020 - May 2020</span>
+              <h4>Software Engineer</h4> 
+              <span className='rcm-span2'>Bitem</span>
+              <p>• Developed a desktop application for crypto trading and investing, streaming live market data via the Binance API to execute and manage trades. The application includes essential tools for effective day trading and long-term investing on Binance.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>September 2024 - October 2024</span>
+              <h4>Full-stack Web Developer</h4> 
+              <span className='rcm-span2'>Payd.ng</span>
+              <p>• Designed a robust and elegant user interface for crypto trading and integrated third-party APIs for full functionality.</p>
+            </div>
+            <div className='resume-contents-main'>
+              <span className='rcm-span1'>September 2019 - PRESENT</span>
+              <h4>Full-stack Web Developer, Software Engineer</h4> 
+              <span className='rcm-span2'>Freelance</span>
+              <p>• Worked on projects such as Getbusyhub, Paybetter, Jenn, Korrok, Beyourboss, Interlink, IBTWeb, a Facebook clone, and various APIs and desktop applications.</p>
             </div>
            </div>
           </div>
@@ -61,38 +107,45 @@ const Resume = () => {
           <div className='resume-contents'>
            <div className='resume-contents-header'>
               <h2>Education</h2>
-              <p>ACADEMIC CAREER</p>
+              <p className='h2_subheading'>ACADEMIC CAREER</p>
            </div>
            <div className='resume-contents-main-wrapper'>
             <div className='resume-contents-main ed-main'>  
               <div className='ed-main-header-wrap'>
-                <p className='ed-main-header-wrap-span2'><span></span></p>
-                <h3 style={{color:"red"}}>Full-Stack Developer Nanodegree</h3> 
+                <p><span></span></p>
+                <h3>Full-Stack Developer Nanodegree</h3> 
               </div> 
-              <span style={{color:"gray"}}>Udacity, Inc.</span><br></br><br></br>
-              <span className='edu-small-box'>May 2020 - Sept 2020</span>
-              <p style={{marginTop: "15px"}}>This nanodegree course extensively taught various technical skills needed to build database-backed APIs and web applications including:</p>
+              <span style={{color:"gray"}}>Udemy, Inc.</span><br></br><br></br>
+              <span className='edu-small-box'>Jun 2019 - Nov 2019</span>
+              <p style={{marginTop: "15px"}}>This course thought in-demand skills in both frontend and backend development, leveraging the latest frameworks, tools, and best practices.</p>
               <div className='edu-bullet-box'>
-                <p>• SQL and Data Modelling for the Web</p>
-                <p>• API Development and Documentation</p>
-                <p>• Identity and Access Management</p>
-                <p>• Server Deployment, Containerization and Testing</p>
+                <p>• Advanced JavaScript concepts, ES6+, and DOM manipulation.</p>
+                <p>• Building dynamic user interfaces with React.js.</p>
+                <p>• Testing and debugging frontend applications.</p>
+                <p>• Setting up and managing servers with Node.js.</p>
+                <p>• Working with databases: SQL and NoSQL (MySQL, MongoDB).</p>
+                <p>• Authentication and security best practices.</p>
+                <p>• Real-time applications with WebSockets.</p>
+                <p>• Deployment strategies using cloud platforms like AWS, Heroku, or Vercel.</p>
+                <p>• Understanding CI/CD pipelines and version control (Git/GitHub).</p>
               </div> 
             </div> 
 
             <div className='resume-contents-main ed-main'>  
               <div className='ed-main-header-wrap'>
                 <p className='ed-main-header-wrap-span2'><span></span></p>
-                <h3 style={{color:"red"}}>Full-Stack Developer Nanodegree</h3> 
+                <h3>Software Engineering Programme</h3> 
               </div> 
-              <span style={{color:"gray"}}>Udacity, Inc.</span><br></br><br></br>
-              <span className='edu-small-box'>May 2020 - Sept 2020</span>
-              <p style={{marginTop: "15px"}}>This nanodegree course extensively taught various technical skills needed to build database-backed APIs and web applications including:</p>
+              <span style={{color:"gray"}}>ALX Africa - Holberton Inc.</span><br></br><br></br>
+              <span className='edu-small-box'>Aug 2022 - July 2023</span>
+              <p style={{marginTop: "15px"}}>This programme taught various technical skills needed to build database-backed APIs and web applications including:</p>
               <div className='edu-bullet-box'>
-                <p>• SQL and Data Modelling for the Web</p>
-                <p>• API Development and Documentation</p>
-                <p>• Identity and Access Management</p>
-                <p>• Server Deployment, Containerization and Testing</p>
+                <p>• Proficiency in C, Python, and Shell scripting for software development.</p>
+                <p>• Experience with Linux systems, version control (Git), and collaborative coding practices.</p>
+                <p>• Frontend and backend web development using HTML, CSS, JavaScript, and API integration.</p>
+                <p>• Database design and management with SQL and NoSQL systems.</p>
+                <p>• Low-level programming, including memory management and system calls.</p>
+                <p>• DevOps basics: Docker, CI/CD pipelines, and cloud deployment.</p>
               </div> 
             </div>
            </div>
@@ -101,7 +154,7 @@ const Resume = () => {
           <div className='resume-contents' style={{margin: "50px 0"}}>
            <div className='resume-contents-header'>
               <h2>Tech Stack</h2>
-              <p>TOOLS & TECHNOLOGIES</p>
+              <p className='h2_subheading'>TOOLS & TECHNOLOGIES</p>
            </div>
            <div className='resume-contents-main-wrapper'>
             <div className='resume-contents-main tech-stack-wrap'> 

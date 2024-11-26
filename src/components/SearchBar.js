@@ -25,7 +25,7 @@ const SearchBar = ({ posts, onSearch }) => {
       <select value={category} onChange={handleCategoryChange}>
         <option value="all">All</option>
         <option value="tech">Tech</option>
-        <option value="health">Health</option>
+        <option value="forex">Forex</option>
       </select>
       
       <input

@@ -1,9 +1,11 @@
+ 
+
 .resume{
     background-color: white;
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url("https://res.cloudinary.com/karso/image/upload/v1644513745/Portfolio/Project%20Banners/nng75czwnwnugatr6v9p.jpg");
+    background-image: url("http://localhost:3000/emmanuel/images/brand/emma-bg.jpg");
     padding: 0;
     padding-top: 60px;
 }
@@ -30,8 +32,8 @@
     margin-bottom: 40px; 
 }
 
-.resume-header > h1{ 
-    margin-bottom: 15px;
+.resume-header > p{ 
+    margin-top: 0;
 }
 
 .resume-contents-header{
@@ -43,14 +45,22 @@
 }
 
 .resume-contents-main{
-    margin-bottom: 25px; 
+    margin-bottom: 50px; 
 }
 
-.resume-contents-header > h2{ 
-    margin-bottom: 7px;
+.rcm-span1{
+    color: var(--primary-color);
 }
 
-.resume-contents-main > h3{ 
+.rcm-span2{
+    color: gray;
+}
+ 
+.resume-contents-header > p{ 
+    margin-top: 0;
+}
+
+.resume-contents-main > h4{ 
     margin: 2px 0;
     font-weight: bold;
 } 
@@ -59,9 +69,9 @@
     margin-top: 10px;
 }
 
-.ed-main{ 
-    margin-bottom: 0; 
-    border-left: 3px solid rgb(201, 201, 201);
+.ed-main{  
+    margin-bottom: 0;  
+    border-left: 3px solid rgb(201, 201, 201); 
     padding-left: 30px;
     padding-bottom: 40px;
 }
@@ -72,30 +82,31 @@
 
 .ed-main-header-wrap > h3{ 
     margin-left: 12px;
+    color: var(--primary-color);
 }
 
 .ed-main-header-wrap > p{
-    background-color: rgba(255, 0, 0, 0.293); 
-    padding: 20px;
+    background-color: var(--primary-color-light); 
+    padding: 10px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-left: -52px;
+    width: 10px;
+    height: 10px;
+    margin-left: -42px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .ed-main-header-wrap > p > span{
-    background-color: rgb(255, 0, 0); 
-    padding: 10px;
+    background-color: var(--primary-color-light); 
+    padding: 5px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;  
+    width: 10px;
+    height: 10px;  
 } 
 
 .edu-small-box{
-    background-color: rgba(255, 0, 0, 0.256);
+    background-color: var(--primary-color-light);
     padding: 10px;
     margin: 10px 0;
     border-radius: 10px;

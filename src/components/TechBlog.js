@@ -40,19 +40,24 @@ const TechBlog = () => {
 
   const blogs = [
     {
-      img: "images/Blog/post-7.jpg",
-      title: "Learn PHP The Right Way | 30 Days Extensive PHP Course",
-      link: "#",
+      img: "images/Blog/python-tech1.webp",
+      title: "Exploring Python Advanced Data Structures for Efficient Coding",
+      link: "blog/exploring-python-s-advanced-data-structures-for-efficient-coding",
     },
     {
-      img: "images/Blog/post-8.jpg",
-      title: "Master React and Build Scalable Applications",
-      link: "#",
+      img: "images/Blog/trading1.webp",
+      title: "Building Your First Expert Advisor in MQL5: A Beginner’s Guide",
+      link: "blog/building-your-first-expert-advisor-in-mql5-a-beginner-s-guide",
     },
     {
-      img: "images/Blog/post-4.png",
-      title: "Understanding JavaScript Closures in Depth",
-      link: "#",
+      img: "images/Blog/php-tech2.webp",
+      title: "PHP Security Best Practices: Safeguarding Your Web Applications",
+      link: "blog/php-security-best-practices-safeguarding-your-web-applications",
+    },
+    {
+      img: "images/Blog/mysql-tech2.webp",
+      title: "Mastering MySQL Indexing for Better Query Performance",
+      link: "blog/mastering-mysql-indexing-for-better-query-performance",
     },
     
     // Add more blog data as needed
@@ -62,7 +67,7 @@ const TechBlog = () => {
     <div className="tech-blog">
       <div className='tech-blog-box1'>
         <h2>Featured Blogs</h2>
-        <p>Explore some of our latest blogs</p>
+        <p>Innovative ideas in Software Development and Forex Trading.</p>
       </div>
 
       <div className="featuredBlogsWrapper">
@@ -72,7 +77,7 @@ const TechBlog = () => {
               <img src={`${process.env.PUBLIC_URL}/${blog.img}`} alt="Featured blog" />
               <h5 style={{ display: '-webkit-box',WebkitBoxOrient: 'vertical',
                 overflow: 'hidden',WebkitLineClamp: 2,textOverflow: 'ellipsis',   
-                height: '60px',margin: '20px 0'}}> {blog.title}
+                height: '50px',margin: '20px 0', marginTop: '5px'}}> {blog.title}
               </h5>
               <button onClick={() => window.location.href = blog.link}>Read More</button>
             </div>

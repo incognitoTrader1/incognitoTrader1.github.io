@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header>
       <div className='logo-wrapper'>
-        <img className='logo' src="/images/socials/whatsapp-black.png" alt="Logo" /> 
+        <img className='logo' src={`${process.env.PUBLIC_URL}/images/brand/logo-black.png`} alt="Logo" /> 
       </div>
 
       <div className='hamburger-wrapper'>
@@ -43,31 +43,31 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" className={({ isActive }) => (isActive ? "active" : "")}>
-              Blog
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/resume" className={({ isActive }) => (isActive ? "active" : "")}>
               Resume
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
-              About
             </NavLink>
           </li>
           <li>
             <NavLink to="/portfolio" className={({ isActive }) => (isActive ? "active" : "")}>
               Portfolio
             </NavLink>
-          </li>
+          </li> 
+          <li>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+              About
+            </NavLink>
+          </li> 
           <li>
             <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
               Contact
             </NavLink>
           </li> 
-          <NavLink to="/contact" onClick={handleScrollToSection}>
+          <li>
+            <NavLink to="/blog" className={({ isActive }) => (isActive ? "active" : "")}>
+              Blog
+            </NavLink>
+          </li>
+          <NavLink style={{ padding: '0' }} to="/contact" onClick={handleScrollToSection}>
             <button>Get in Touch</button>
           </NavLink> 
         </ul>

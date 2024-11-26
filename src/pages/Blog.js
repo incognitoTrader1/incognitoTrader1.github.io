@@ -77,7 +77,7 @@ function Blog({ posts }) {
            <Link to={`/blog/${post.slug}`} className="read-more-link"> 
             <img className='featuredImg' src={`${process.env.PUBLIC_URL}/images/blog/${post.image}`} alt={post.title} />
             <div className='post-item-content-wrapper'> 
-              <h2>{post.title}</h2>
+              <h4>{post.title}</h4>
               <PostExcerpt content={post.content} /> 
             </div>
            </Link>

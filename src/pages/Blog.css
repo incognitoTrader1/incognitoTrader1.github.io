@@ -1,3 +1,4 @@
+ 
 
 .blog-main{ 
   padding-top: 50px;
@@ -28,10 +29,15 @@
 
   .post-item-content-wrapper{
     padding: 20px;
+    padding-top: 0;
+  }
+
+  .post-item-content-wrapper > h4{
+    color: var(--primary-color);
   }
 
   .post-item .read-more-link { 
-    color: #090979;
+    color: #000000;
     cursor: pointer;
     text-decoration: none; /* Remove underline */  
   } 

@@ -14,12 +14,24 @@
     overflow-x: hidden;
 }
 
+.rps-video-box{
+    width: 100%;
+} 
+
+.rps-video{
+    width: 100%;
+} 
+
 .rps-header{
     margin-bottom: 20px;
 } 
 
 .rps-contents-box > h2{ 
-    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.rps-contents-box > p{ 
+    margin-top: 0;
 }
 
 .rps-contents-box > div{
@@ -57,6 +69,10 @@
 
     .rps-contents-box > div{
        margin-top: 30px;
+    }
+
+    .rps-video-box{
+        width: 50%;
     }
       
   }

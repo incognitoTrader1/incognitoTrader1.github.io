@@ -37,16 +37,16 @@ const Home = () => {
     {/* Main homepage content */}
     <section id="welcome-landing">
       <div style={{ padding: '0 50px' }}>
-        <img src={`${process.env.PUBLIC_URL}/images/brand/profile.png`} alt="my portrait" className="welcome-image" />
+        <img src={`${process.env.PUBLIC_URL}/images/brand/emma-normal.png`} alt="my portrait" className="welcome-image" />
       </div>
       
       <div className='sec1Box2'>
         <div> 
         <h1 className="landing-h1">Emmanuel Okonkwo</h1>
         <TypewriterEffect />
-        <div className='ds-flex'> 
-          <button className='sec1-btn1'><i className="fa fa-cogs" aria-hidden="true"></i> My Services</button>
-          <button className="brandBtn2 sec1-btn2"><i className="fa fa-briefcase" aria-hidden="true"></i> Past Projects</button>
+        <div className='ds-flex'>
+          <button onClick={() => window.location.href = "about"} className='sec1-btn1'><i className="fa fa-cogs" aria-hidden="true"></i> About Me</button>
+          <button onClick={() => window.location.href = "portfolio"} className="brandBtn2 sec1-btn2"><i className="fa fa-briefcase" aria-hidden="true"></i> Past Projects</button>
         </div>
         </div>
       </div>

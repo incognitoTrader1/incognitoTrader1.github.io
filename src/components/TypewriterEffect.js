@@ -36,7 +36,7 @@ const TypewriterEffect = () => {
   }, [text, deleting, index, typingSpeed]);
 
   return (
-    <p className='dynaTypeProp'> 
+    <p className='dynaTypeProp h1_subheading'> 
       {text}
       <span className="cursor">|</span>
     </p>
