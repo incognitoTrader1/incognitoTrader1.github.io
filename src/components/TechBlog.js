@@ -40,24 +40,24 @@ const TechBlog = () => {
 
   const blogs = [
     {
-      img: "images/Blog/python-tech1.webp",
+      img: "images/blog/python-tech1.webp",
       title: "Exploring Python Advanced Data Structures for Efficient Coding",
-      link: "blog/exploring-python-s-advanced-data-structures-for-efficient-coding",
+      link: "#/blog/exploring-python-s-advanced-data-structures-for-efficient-coding",
     },
     {
-      img: "images/Blog/trading1.webp",
+      img: "images/blog/trading1.webp",
       title: "Building Your First Expert Advisor in MQL5: A Beginner’s Guide",
-      link: "blog/building-your-first-expert-advisor-in-mql5-a-beginner-s-guide",
+      link: "#/blog/building-your-first-expert-advisor-in-mql5-a-beginner-s-guide",
     },
     {
-      img: "images/Blog/php-tech2.webp",
+      img: "images/blog/php-tech2.webp",
       title: "PHP Security Best Practices: Safeguarding Your Web Applications",
-      link: "blog/php-security-best-practices-safeguarding-your-web-applications",
+      link: "#/blog/php-security-best-practices-safeguarding-your-web-applications",
     },
     {
-      img: "images/Blog/mysql-tech2.webp",
+      img: "images/blog/mysql-tech2.webp",
       title: "Mastering MySQL Indexing for Better Query Performance",
-      link: "blog/mastering-mysql-indexing-for-better-query-performance",
+      link: "#/blog/mastering-mysql-indexing-for-better-query-performance",
     },
     
     // Add more blog data as needed

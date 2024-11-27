@@ -111,24 +111,34 @@ const Contact = () => {
            <div className='contact-contents-socails'> 
              <div>
               <div>
+               <a href="https://www.youtube.com/c/EmmanuelOkonkwo" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/images/socials/youtube.png`} alt='youtube logo' />
                 <p>Youtube</p>
+               </a>
               </div>
               <div>
+               <a>
                 <img src={`${process.env.PUBLIC_URL}/images/socials/twitter.png`} alt='twitter logo' />
                 <p>Twitter</p>
+               </a>
               </div>
               <div>
+               <a>
                 <img src={`${process.env.PUBLIC_URL}/images/socials/instagram.png`} alt='instagram logo' />
                 <p>Instagram</p>
+               </a>
               </div>
               <div>
+               <a href="https://t.me/+vbD1QTXgje8zMjc0" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/images/socials/telegram.png`} alt='Telegram logo' />
                 <p>Telegram</p>
+               </a>
               </div>
               <div> 
+               <a href="https://github.com/Mr-Success50" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt='Github logo' />
                 <p>Github</p>
+                </a>
               </div>
              </div>
            </div>  

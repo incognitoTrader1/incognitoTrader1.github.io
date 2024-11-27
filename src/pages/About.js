@@ -56,6 +56,10 @@ const About = () => {
                 <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
                 <p>An Algo Trader with expertise in developing and implementing algorithmic trading strategies to optimize market performance and maximize returns.</p>
               </div>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/core/user.png`} alt='user icon' />
+                <p>I'm skilled in core engineering concepts, leveraging them to design and deliver reliable, impactful software and algorithms. Currently driving innovation as a co-founder at IncognitoTraders.</p>
+              </div>
             </div>
             <div className='about-contents-main2'> 
               <h5>What I Do?</h5> 
@@ -73,8 +77,8 @@ const About = () => {
                 <p>Intra-day & Algo Forex Trading</p>
               </div> 
              </div> 
-            </div> 
-            <p>I'm thrilled that you're here! Don't hesitate to reach out if you have any project ideas or just want to say hello!</p>
+            </div>
+            <p>I'm thrilled that you're here! Don't hesitate to <a href="https://wa.me/+2348127506190?text=Hi,%20am%20reaching%20out%20from%20your%20portfolio%20about%20page." target="_blank" rel="noopener noreferrer">Reach Out</a> if you have any project ideas or just want to say hello!</p>
            </div>
           </div> 
         </div>  

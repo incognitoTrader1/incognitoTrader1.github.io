@@ -29,7 +29,11 @@
 } 
 
 .resume-header{
-    margin-bottom: 40px; 
+    margin-bottom: 45px; 
+}
+
+.resume-header > h1{ 
+   color: var(--primary-color);
 }
 
 .resume-header > p{ 
@@ -37,27 +41,29 @@
 }
 
 .resume-contents-header{
-    margin-bottom: 20px; 
+    margin-bottom: 15px; 
 }
 
 .resume-contents-main-wrapper{ 
-    margin-top: 40px; 
-}
+    margin-top: 0; 
+} 
 
 .resume-contents-main{
     margin-bottom: 50px; 
 }
 
 .rcm-span1{
-    color: var(--primary-color);
+     color: gray;
 }
 
 .rcm-span2{
     color: gray;
+    font-weight: bold;
+    font-size: 15px;
 }
  
 .resume-contents-header > p{ 
-    margin-top: 0;
+    margin: 0;
 }
 
 .resume-contents-main > h4{ 

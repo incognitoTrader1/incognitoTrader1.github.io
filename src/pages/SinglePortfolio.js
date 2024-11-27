@@ -104,7 +104,7 @@ const SinglePortfolio = () => {
         <div className='rps-trans-bg'>
         <div className='rps-wrapper'>
         <div className='rps-header'>
-          <p><a href="/portfolio">Portfolio</a> &gt; {project ? project.title : "Not Found"}</p> 
+          <p><a href="#/portfolio">Portfolio</a> &gt; {project ? project.title : "Not Found"}</p> 
         </div>
 
         <div className='rps-content-wrapper'>

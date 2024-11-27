@@ -54,32 +54,32 @@ const Resume = () => {
             <div className='resume-contents-main'>
               <span className='rcm-span1'>May 2023 - June 2023</span>
               <h4>Frontend Web Developer</h4> 
-              <span className='rcm-span2'>NextGear Homes - Freelance Gig</span>
+              <span className='rcm-span2'><a href="https://nextgearng.com" target="_blank" rel="noopener noreferrer">NextGear Homes</a></span>
               <p>• Redesigned and enhanced the existing real estate company's website using secure and modern technologies.</p>
             </div>
             <div className='resume-contents-main'>
               <span className='rcm-span1'>July 2024 - September 2024</span>
               <h4>Software Developer</h4> 
-              <span className='rcm-span2'>MinerX</span>
+              <span className='rcm-span2'><a href="https://youtu.be/HVYgy0YhlGo?si=bYccP7t0tLQ9UoQU" target="_blank" rel="noopener noreferrer">MinerX</a></span>
               <p>• Developed a Telegram mini-game featuring crypto cloud mining, tap-to-earn mechanics, a micro-task system, a referral program, and other engaging features.</p>
             </div>
             <div className='resume-contents-main'>
               <span className='rcm-span1'>August 2022 - October 2022</span>
               <h4>Full-stack Web Developer</h4> 
-              <span className='rcm-span2'>Ancestor Robotics - Freelance Gig</span>
+              <span className='rcm-span2'>Ancestor Robotics</span>
               <p>• Developed a fully functional dynamic website from scratch, incorporating both frontend and backend components, for the forex robot company.</p>
               <p>• Developed all trading robots (Expert Advisors) and indicators using MQL4 and MQL5, along with other supporting technologies.</p>
             </div>
             <div className='resume-contents-main'>
               <span className='rcm-span1'>July 2023 - August 2023</span>
               <h4>Frontend Web Developer</h4> 
-              <span className='rcm-span2'>NineTech.ca - Freelance Gig</span>
+              <span className='rcm-span2'><a href="https://ninetech.ca/" target="_blank" rel="noopener noreferrer">NineTech</a></span>
               <p>• Redesigned and enhanced the existing business and data analys school company's website using secure and modern technologies.</p>
             </div>
             <div className='resume-contents-main'>
               <span className='rcm-span1'>Febuary 2024 - PRESENT</span>
               <h4>Full-stack Web Developer</h4> 
-              <span className='rcm-span2'>Edey.ng</span>
+              <span className='rcm-span2'><a href="https://edey.net/" target="_blank" rel="noopener noreferrer">Edey</a></span>
               <p>• Designed and developed an e-commerce system from scratch, incorporating unique features such as P2P trading and ads placement, among others.</p>
               <p>• Developed an escrow system to enable users to buy and sell securely, ensuring trust and safety in peer-to-peer transactions.</p>
             </div>
@@ -92,14 +92,16 @@ const Resume = () => {
             <div className='resume-contents-main'>
               <span className='rcm-span1'>September 2024 - October 2024</span>
               <h4>Full-stack Web Developer</h4> 
-              <span className='rcm-span2'>Payd.ng</span>
+              <span className='rcm-span2'><a href="https://payd.ng/" target="_blank" rel="noopener noreferrer">Payd</a></span>
               <p>• Designed a robust and elegant user interface for crypto trading and integrated third-party APIs for full functionality.</p>
+              <p>• This project encompasses both front-end and back-end components and was built from the ground up using appropriate technologies.</p>
             </div>
             <div className='resume-contents-main'>
               <span className='rcm-span1'>September 2019 - PRESENT</span>
               <h4>Full-stack Web Developer, Software Engineer</h4> 
-              <span className='rcm-span2'>Freelance</span>
-              <p>• Worked on projects such as Getbusyhub, Paybetter, Jenn, Korrok, Beyourboss, Interlink, IBTWeb, a Facebook clone, and various APIs and desktop applications.</p>
+              <span className='rcm-span2'>Freelance - contract roles</span>
+              <p>• Providing comprehensive services with a strong focus on backend development, API design, and algorithm implementation. This includes creating efficient, scalable architectures, developing robust APIs, and implementing advanced algorithms to power responsive and functional applications for diverse clients using a wide range of tools and technologies.</p>
+              <p>• <b>Additional Freelance Projects</b>: Getbusyhub, Paybetter, Jenn, Korrok, Beyourboss, Interlink, IBTWeb, a Facebook clone, as well as numerous APIs and desktop applications.</p>
             </div>
            </div>
           </div>

@@ -45,8 +45,8 @@ const Home = () => {
         <h1 className="landing-h1">Emmanuel Okonkwo</h1>
         <TypewriterEffect />
         <div className='ds-flex'>
-          <button onClick={() => window.location.href = "about"} className='sec1-btn1'><i className="fa fa-cogs" aria-hidden="true"></i> About Me</button>
-          <button onClick={() => window.location.href = "portfolio"} className="brandBtn2 sec1-btn2"><i className="fa fa-briefcase" aria-hidden="true"></i> Past Projects</button>
+          <button onClick={() => window.location.href = "#/about"} className='sec1-btn1'><i className="fa fa-cogs" aria-hidden="true"></i> About Me</button>
+          <button onClick={() => window.location.href = "#/portfolio"} className="brandBtn2 sec1-btn2"><i className="fa fa-briefcase" aria-hidden="true"></i> Past Projects</button>
         </div>
         </div>
       </div>

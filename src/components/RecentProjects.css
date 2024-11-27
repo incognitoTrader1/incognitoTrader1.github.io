@@ -31,8 +31,7 @@
 .recent-projects-box {
     position: relative;
     cursor: pointer;
-    min-height: 160px; 
-    margin-bottom: 10px;    
+    min-height: 160px;  
 }
 
 .recent-projects-box-img {

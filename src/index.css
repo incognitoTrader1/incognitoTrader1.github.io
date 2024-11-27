@@ -77,13 +77,13 @@ h6 {
 
 p {
   font-family: var(--brand-font-body);
-  font-size: calc(var(--font-size-base) * 1.125); /* 18px */ 
+  font-size: var(--font-size-base); /* 16px */ 
   line-height: 1.4;
 }
 
 span {
   font-family: var(--brand-font-body);
-  font-size: var(--font-size-base); /* 16px */ 
+  font-size: calc(var(--font-size-base) * 1.125); /* 14px */ 
   line-height: 1.4;
 } 
 

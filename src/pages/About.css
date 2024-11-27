@@ -44,7 +44,7 @@
 }
 
 .about-contents-main{
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .about-contents-header > h2{ 
@@ -58,7 +58,8 @@
 
 .about-contents-main > div{
   display: flex;
-  margin-bottom: 20px;
+  margin: 0;  
+  margin-bottom: 10px;  
 }
 
 .about-contents-main > div > img{
@@ -70,6 +71,7 @@
 
 .about-contents-main > div > p{
   width: auto;
+  margin: 0;  
   margin-left: 10px; 
 }
 

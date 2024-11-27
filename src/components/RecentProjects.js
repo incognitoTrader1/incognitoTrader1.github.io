@@ -10,7 +10,7 @@ const RecentProjects = () => (
     </div>
 
     <div className='recent-projects-box-wrapper'> 
-      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/portfolio/nextgear`}>
+      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/#/portfolio/nextgear`}>
         <video autoPlay loop muted className="recent-projects-box-img">
           <source src={`${process.env.PUBLIC_URL}/assets/videos/nextgear.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
@@ -25,7 +25,7 @@ const RecentProjects = () => (
         </div>
       </a> 
 
-      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/portfolio/minerx`}>
+      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/#/portfolio/minerx`}>
         <video autoPlay loop muted className="recent-projects-box-img">
           <source src={`${process.env.PUBLIC_URL}/assets/videos/minerX.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
@@ -40,7 +40,7 @@ const RecentProjects = () => (
         </div>
       </a>
 
-      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/portfolio/payd`}>
+      <a class="recent-projects-box" href={`${process.env.PUBLIC_URL}/#/portfolio/payd`}>
         <video autoPlay loop muted className="recent-projects-box-img">
           <source src={`${process.env.PUBLIC_URL}/assets/videos/payd.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
