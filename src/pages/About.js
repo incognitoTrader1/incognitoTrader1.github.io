@@ -20,11 +20,11 @@ const About = () => {
   return (  
     <div>
       <Helmet>
-       <meta name="description" content="some text" />
-       <meta name="keywords" content="some text" />
-       <meta property="og:description" content="some text" />
+       <meta name="description" content="Learn about Emmanuel Okonkwo, a co-founder skilled in algorithmic forex trading, core engineering, backend development, API creation, and algorithm design. Discover my journey, expertise, and mission to deliver impactful software solutions and trading strategies." />
+       <meta name="keywords" content="About Emmanuel Okonkwo, algorithmic forex trading, backend development, API creation, algorithm design, software engineering, co-founder, impactful solutions, trading strategies, tech expertise" />
+       <meta property="og:description" content="Get to know Emmanuel Okonkwo, a co-founder, software engineer, and expert in algorithmic forex trading, backend development, APIs, and algorithms. Explore the story and skills behind my innovative solutions and trading strategies." />
        <meta property="og:url" content={window.location.href} />
-       <title>About | Example Site</title>
+       <title>About | Emmanuel Okonkwo</title>
        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

@@ -26,11 +26,11 @@ const Home = () => {
   return (  
    <div>
     <Helmet>
-      <meta name="description" content="some text" />
-      <meta name="keywords" content="some text" />
-      <meta property="og:description" content="some text" />
+      <meta name="description" content="Welcome to the official site of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, API creation, and software engineering. Explore innovative solutions and trading strategies." />
+      <meta name="keywords" content="Emmanuel Okonkwo, algorithmic forex trading, backend development, API creation, software engineering, co-founder, trading strategies, innovative solutions, tech expertise" />
+      <meta property="og:description" content="Discover the work of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, and API creation. Learn about impactful software solutions and trading strategies." />
       <meta property="og:url" content={window.location.href} />
-      <title>Home | Example Site</title>
+      <title>Home | Emmanuel Okonkwo</title>
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
     </Helmet>
 

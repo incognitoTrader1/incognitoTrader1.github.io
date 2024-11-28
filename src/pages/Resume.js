@@ -20,11 +20,11 @@ const Resume = () => {
   return (  
     <div>
       <Helmet>
-       <meta name="description" content="some text" />
-       <meta name="keywords" content="some text" />
-       <meta property="og:description" content="some text" />
+       <meta name="description" content="Browse the resume of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, API creation, and software engineering. Learn about my experience, skills, and achievements." />
+       <meta name="keywords" content="Emmanuel Okonkwo resume, algorithmic forex trading, backend development, API creation, software engineering, co-founder, career experience, professional skills, tech achievements" />
+       <meta property="og:description" content="Explore the resume of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, and software engineering. Discover my professional experience and key achievements." />
        <meta property="og:url" content={window.location.href} />
-       <title>Resume | Example Site</title>
+       <title>Resume | Emmanuel Okonkwo</title>
        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

@@ -52,11 +52,11 @@ const Contact = () => {
   return (  
     <div>
       <Helmet>
-       <meta name="description" content="some text" />
-       <meta name="keywords" content="some text" />
-       <meta property="og:description" content="some text" />
+       <meta name="description" content="Get in touch with Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, API creation, and algorithm design. Let's collaborate on impactful projects." />
+       <meta name="keywords" content="Contact Emmanuel Okonkwo, algorithmic forex trading, backend development, API creation, algorithm design, software engineering, collaboration, tech expertise" />
+       <meta property="og:description" content="Reach out to Emmanuel Okonkwo, a co-founder and expert in algorithmic forex trading, backend development, and software engineering. Connect to discuss impactful projects and trading strategies." />
        <meta property="og:url" content={window.location.href} />
-       <title>Contact | Example Site</title>
+       <title>Contact | Emmanuel Okonkwo</title>
        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

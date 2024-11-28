@@ -66,11 +66,11 @@ const Portfolio = () => {
   return (  
     <div className='portfolio-page'>
       <Helmet>
-        <meta name="description" content="some text" />
-        <meta name="keywords" content="some text" />
-        <meta property="og:description" content="some text" />
+        <meta name="description" content="Explore the portfolio of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, API creation, and software engineering. Discover innovative projects and solutions." />
+        <meta name="keywords" content="Emmanuel Okonkwo portfolio, algorithmic forex trading, backend development, API creation, software engineering, co-founder, innovative projects, tech expertise" />
+        <meta property="og:description" content="View the portfolio of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, and software engineering. Explore key projects and impactful solutions." />
         <meta property="og:url" content={window.location.href} />
-        <title>Portfolio | Example Site</title>
+        <title>Portfolio | Emmanuel Okonkwo</title>
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

@@ -60,11 +60,11 @@ function Blog({ posts }) {
   return (
     <div className='blog-main'>
       <Helmet>
-        <meta name="description" content="some text" />
-        <meta name="keywords" content="some text" />
-        <meta property="og:description" content="some text" />
+        <meta name="description" content="Dive into expert insights on algorithmic forex trading, backend engineering, APIs, and software development. Explore practical tips and advanced strategies from Emmanuel Okonkwo's blog." />
+        <meta name="keywords" content="algorithmic forex trading, forex trading strategies, backend engineering, API development, algorithm design, software development blog, Emmanuel Okonkwo blog" />
+        <meta property="og:description" content="Discover cutting-edge strategies for algorithmic forex trading, along with insights on backend engineering, APIs, and software development from Emmanuel Okonkwo's blog." />
         <meta property="og:url" content={window.location.href} />
-        <title>Blog | Example Site</title>
+        <title>Blog | Emmanuel Okonkwo</title>
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

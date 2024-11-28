@@ -91,11 +91,11 @@ const SinglePortfolio = () => {
   return (  
     <div className='portfolio-page'>
       <Helmet>
-        <meta name="description" content="some text" />
-        <meta name="keywords" content="some text" />
-        <meta property="og:description" content="some text" />
+        <meta name="description" content="Discover the details of a specific project from the portfolio of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, and software engineering. Learn about the challenges, solutions, and impact of this project." />
+        <meta name="keywords" content="Emmanuel Okonkwo portfolio project, algorithmic forex trading, backend development, API creation, software engineering, co-founder, project details, tech solutions, impactful projects" />
+        <meta property="og:description" content="Explore the in-depth details of a specific project from the portfolio of Emmanuel Okonkwo, co-founder and expert in algorithmic forex trading, backend development, and software engineering. See the challenges, solutions, and results of the project." />
         <meta property="og:url" content={window.location.href} />
-        <title>{project ? project.title : "Project Not Found"} | Example Site</title>
+        <title>{project ? project.title : "Project Not Found"} | Emmanuel Okonkwo</title>
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 
