@@ -55,7 +55,7 @@ const RecentProjects = () => (
         </div>
       </a> 
 
-      <div><button onClick={() => window.location.href = "portfolio"}>Explore More</button></div>
+      <div><button onClick={() => window.location.href = "#/portfolio"}>Explore More</button></div>
     </div>
   </div>
 );

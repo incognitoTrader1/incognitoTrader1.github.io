@@ -78,7 +78,7 @@ const About = () => {
               </div> 
              </div> 
             </div>
-            <p>I'm thrilled that you're here! Don't hesitate to <a href="https://wa.me/+2348127506190?text=Hi,%20am%20reaching%20out%20from%20your%20portfolio%20about%20page." target="_blank" rel="noopener noreferrer">Reach Out</a> if you have any project ideas or just want to say hello!</p>
+            <p>I'm thrilled that you're here! Don't hesitate to <b><a href="https://wa.me/+2348127506190?text=Hi,%20am%20reaching%20out%20from%20your%20portfolio%20about%20page." target="_blank" rel="noopener noreferrer">Reach Out</a></b> if you have any project ideas or just want to say hello!</p>
            </div>
           </div> 
         </div>  
