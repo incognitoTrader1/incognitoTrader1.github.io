@@ -1346,6 +1346,42 @@ Happy coding, and best of luck with your trading journey!
     category: 'tech',
   },
 
+  // Post 9
+  {
+    id: '9',
+    title: 'EURUSD LD Session trade 23-12-2024',
+    content: 
+    `Dear journal, on today 23rd of December 2024 I took this interesting setup on my favorite pair EURUSD. Let's take a closer look.
+
+## HIGHER TIMEFRAME CONFLUENCE
+![HTF chart](/images/blog/trade1.1.jpg)
+
+During the close of Asian session; before London open, I observed carefully price going towards clearing Friday's high, but that didn't happen... Instead a "mitigation" so I thought I would buy at the swipe of Asian low and a swipe of some H1 liquidity around that areas.    
+
+So price expanded downwards and did swipe Asian low and the last liquidity from Friday in H1, then went down further to "touch" a supply zone (which is a good buy continue for price).
+
+Now I went to down to M1 and find my entry.
+![HTF chart](/images/blog/trade1.3.jpg)
+
+### Where I Should Improve On Next Trade
+This trade did give me close to 1:2 but I was just too busy to BreakEven at 1:1 or 1:0.5 (adjust SL to above entry), so when it reversed I was liquidated (SL).
+![HTF chart](/images/blog/trade1.0.jpg)
+
+Now, according to my strategy; price later returned to give me a SELL continue opportunity but I was "not focused" on the chart this moments and secondly was not too confidence to take it (I was afraid to hit 2 SL this day).
+![HTF chart](/images/blog/trade1.4.jpg)
+
+#### Conclusion
+That's all that went on today... I did not trade the NY session, even though opportunity did present itself. See when liquidity was swiped on H1 price did retraced upto 30 pips.
+![HTF chart](/images/blog/trade1.2.jpg)
+
+Shalom, 
+
+Emmanuel Success Okonkwo (Incognito Trader)
+    `,
+    image: 'trade1.0.jpg',
+    category: 'forex',
+  },
+
 /* 
   // Post 00
   {
@@ -1355,7 +1391,7 @@ Happy coding, and best of luck with your trading journey!
     `W cation remains resi 
     `,
     image: 't1.jpg',
-    category: 'health',
+    category: 'tech or forex',
   },
 */
      

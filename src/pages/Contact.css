@@ -3,7 +3,7 @@
   background-size: cover;  
   background-position: center; 
   background-repeat: no-repeat;
-  background-image: url("https://incognitotrader1.github.io/images/brand/emma-bg.jpg");
+  background-image: url("https://incognitotrader1.github.io/images/brand/em-bg1.jpg");
   padding: 0; 
   padding-top: 60px;
 }  
@@ -11,6 +11,19 @@
 .contact-main-bg{
   background-color: rgba(0, 0, 0, 0.4); 
   padding: 20px;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+.notifyBoxSuc{
+  background-color: rgba(0, 128, 0, 0.18);
+  color: green;
+  font-size: 16px;
+  border-radius: 10px; 
+  text-align: center;
+  padding: 5px 10px; 
 }
 
 .contact-contents-header > img{
@@ -57,7 +70,7 @@
 }
 
 .contact-contents-socails{
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 50px; 
 }
 

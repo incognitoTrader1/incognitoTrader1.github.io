@@ -5,7 +5,8 @@ import { Helmet } from 'react-helmet';
 import emailjs from 'emailjs-com';
 
 const Contact = () => { 
-    const [formData, setFormData] = useState({
+  /* 
+   const [formData, setFormData] = useState({
         name: '',
         email: '',
         subject: '',
@@ -36,6 +37,44 @@ const Contact = () => {
             }
         );
     };
+    \*/
+
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+  });
+
+  const [successMessage, setSuccessMessage] = useState(''); // To display success message
+
+  const handleChange = (e) => {
+      setFormData({
+          ...formData,
+          [e.target.name]: e.target.value,
+      });
+  };
+
+  const handleSubmit = (e) => {
+      e.preventDefault();
+
+      emailjs.send(
+          'service_8ddscka',  
+          'template_9aagvq3', 
+          formData,
+          'yvMnjnruK2elZsMCS'
+      ).then(
+          (result) => {
+              console.log('Email successfully sent!', result.text);
+              setFormData({ name: '', email: '', subject: '', message: '' }); // Clear input fields
+              setSuccessMessage('Your message was sent successfully!'); // Show success message
+              setTimeout(() => setSuccessMessage(''), 5000); // Hide message after 5 seconds
+          },
+          (error) => {
+              console.log('Failed to send email.', error.text);
+          }
+      );
+  };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -100,6 +139,7 @@ const Contact = () => {
 
               <button type="submit" style={{ width: '150px' }}>Submit</button>
             </form> 
+            {successMessage && <span className='notifyBoxSuc'>{successMessage}</span>}
            </div>  
           </div> 
 
