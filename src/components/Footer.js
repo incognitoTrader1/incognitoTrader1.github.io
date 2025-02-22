@@ -10,7 +10,7 @@ const Footer = () => (
        <img src="/images/socials/twitter.jpg" alt="img" /> 
        <img src="/images/socials/facebook.jpg" alt="img" /> 
     </div>*/}
-    <div>All right reserved | EmmanuelOkonkwo @2024</div>
+    <div>All right reserved | EmmanuelOkonkwo @2025</div>
   </footer>
 );
 

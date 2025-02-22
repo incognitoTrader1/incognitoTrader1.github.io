@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home'; 
 import About from './pages/About';
+import Fxjournal from './pages/Fxjournal';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
@@ -1411,6 +1412,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />  {/* "/" maps to Home */}
           <Route path="/about" element={<About />} />  
+          <Route path="/fxjournal" element={<Fxjournal />} />  
           <Route path="/contact" element={<Contact />} />  
           <Route path="/resume" element={<Resume />} />  
           <Route path="/portfolio" element={<Portfolio />} />  

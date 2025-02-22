@@ -75,6 +75,7 @@ const About = () => {
               <div>
                 <img src={`${process.env.PUBLIC_URL}/images/core/forex.png`} alt='forex icon' />
                 <p>Intra-day & Algo Forex Trading</p>
+                <button onClick={() => window.location.href = "#/Fxjournal"} className='journal-btn'>My Journal</button>
               </div> 
              </div> 
             </div>

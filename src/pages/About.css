@@ -97,6 +97,12 @@
   height: 50px;
 }
 
+.journal-btn{
+  width: auto;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 
 
 /*________RESPONSIVE - TABLET________________ */
@@ -122,7 +128,7 @@
 
   .ac-box-wrap{
     display: flex;
-  }
+  }  
 
   .about-contents-main2 > div > div{
     margin: 20px 10px;
