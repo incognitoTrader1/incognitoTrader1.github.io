@@ -119,6 +119,14 @@ const Fxjournal = () => {
               <img className='jr-list-img' src={`${process.env.PUBLIC_URL}/images/core/264b.svg`} alt='img' />
               <span>FEBUARY</span>
             </div> 
+            <div className='jr-home2-list' onClick={() => showTab("jr-home3", "march")}>
+              <img className='jr-list-img' src={`${process.env.PUBLIC_URL}/images/core/264b.svg`} alt='img' />
+              <span>MARCH</span>
+            </div>
+            <div className='jr-home2-list' onClick={() => showTab("jr-home3", "march_1:2")}>
+              <img className='jr-list-img' src={`${process.env.PUBLIC_URL}/images/core/264b.svg`} alt='img' />
+              <span>MARCH_1:2</span>
+            </div>
           </div>
         </div>
 
